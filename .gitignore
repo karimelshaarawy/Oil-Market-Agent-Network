@@ -1,0 +1,71 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Environment variables and local secrets
+.env*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Simulation trace output
+traces/*.jsonl
+
+# Test cache
+.pytest_cache/
+
+# Database files and generated simulation stores
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+chroma_*/
+runs/
+
+# Logs, coverage, and tooling caches
+*.log
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Documentation: only the repository-root README is published
+*.md
+!/README.md
+
+# Local editor and agent workspace files
+.vscode/settings.json
+oasis.code-workspace
+.claude/
+.scratch/
